@@ -31,26 +31,29 @@ body {
 
 .titulo {
   margin-left: 16px;
+  /*margin-top: -6px;*/
 }
 
 .titulo h1 {
   font-weight: 700;
   font-size: 36px;
+  margin-bottom: 0px;
 }
 
 .titulo h3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
   font-weight: normal;
   font-size: 24px;
 }
 
 .media {
-  align-self: center;
-  margin-left: 32px;
+  margin-right: 20px;
 }
 
 .socials {
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 35px;
+  max-height: 35px;
   
 }
 
