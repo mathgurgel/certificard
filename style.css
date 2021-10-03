@@ -43,11 +43,15 @@ body {
   font-size: 24px;
 }
 
+.media {
+  align-self: center;
+  margin-left: 32px;
+}
+
 .socials {
   max-width: 50px;
   max-height: 50px;
-  align-self: center;
-  margin-left: 32px;
+  
 }
 
 .tema button {
@@ -62,18 +66,21 @@ body {
 
 .portfolio {
   margin-top: 64px;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 16px;
+  margin-right: 96px;
+  /*display: grid;*/
+  /*grid-template-columns: 2fr 1fr;*/
+  /*gap: 16px;*/
 }
 
 .projetos {
+  /*text-align: center;*/
   max-height: 300px;
+  width: 100%;
   overflow-y: scroll;
   scrollbar-width: thin;
   display: flex;
   flex-direction: column;
-  padding: 8px 32px;
+  padding: 16px 64px;
   background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
   border-radius: 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -97,6 +104,18 @@ body {
   padding-left: 0;
   font-weight: 700;
   font-size: 24px;
+  margin-bottom: 2px;
+}
+
+.projetos h6 {
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.matroll {
+  margin-top: 55px;
 }
 
 .projetos li {
@@ -110,6 +129,10 @@ body {
   padding-left: 0;
   font-weight: 700;
   font-size: 24px;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
 }
 
 .conquistas li {
@@ -131,6 +154,10 @@ body {
 
 .dark .portfolio {
   color: #1C1C1C;
+}
+
+.dark .socials {
+  filter: invert(100%) brightness(1.085);
 }
 
 .dark .tema button {
