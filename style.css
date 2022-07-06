@@ -31,7 +31,6 @@ body {
 
 .titulo {
   margin-left: 16px;
-  /*margin-top: -6px;*/
 }
 
 .titulo h1 {
@@ -70,14 +69,10 @@ body {
 .portfolio {
   margin-top: 64px;
   margin-right: 96px;
-  /*display: grid;*/
-  /*grid-template-columns: 2fr 1fr;*/
-  /*gap: 16px;*/
 }
 
 .projetos {
-  /*text-align: center;*/
-  max-height: 300px;
+  max-height: 100vh;
   width: 100%;
   overflow-y: scroll;
   scrollbar-width: thin;
@@ -170,11 +165,7 @@ a, a:visited, a:hover, a:active {
   border-radius: 100px;
   border: 2px solid #F7F7F7;
 }
-/*
-.dark .codepen {
-  data-theme-id="light"
-}
-*/
+
 ::-webkit-scrollbar {
   width: 5px;
   height: 5px;
