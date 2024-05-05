@@ -1,21 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
 
 body {
-  background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);   font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Roboto", sans-serif;
+  padding: 3%;
+  height: 100vh;
 }
 
 .container {
-  margin: 64px;
-  background: #ECF4FF;
-  color: #1C1C1C;
+  display: flex;
+  background: #ecf4ff;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5%;
+  color: #1c1c1c;
   border-radius: 20px;
-  padding: 64px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .cabecalho {
+  width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 3%;
 }
 
 .perfil {
@@ -53,20 +77,18 @@ body {
 .socials {
   max-width: 35px;
   max-height: 35px;
-  
 }
 
 .tema button {
-  align-self: flex-end;
   font-size: 16px;
   padding: 8px 16px;
-  background: #ECF4FF;
-  box-sizing: border-box;
+  background: #ecf4ff;
   border-radius: 100px;
-  border: 2px solid #0E1D2F;
+  border: 2px solid #0e1d2f;
 }
 
 .portfolio {
+  display: flex;
   margin-top: 64px;
   margin-right: 128px;
 }
@@ -79,7 +101,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 16px 64px;
-  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
   border-radius: 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
@@ -92,7 +114,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 8px 32px;
-  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
   border-radius: 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
@@ -129,7 +151,10 @@ body {
   font-size: 24px;
 }
 
-a, a:visited, a:hover, a:active {
+a,
+a:visited,
+a:hover,
+a:active {
   color: inherit;
 }
 
@@ -142,16 +167,16 @@ a, a:visited, a:hover, a:active {
 }
 
 .dark {
-  background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
-}
-  
-.dark .container {
-  background: #333439;
-  color: #F6F6F6;
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
 }
 
-.dark .portfolio {
-  color: #1C1C1C;
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
 }
 
 .dark .socials {
@@ -159,11 +184,11 @@ a, a:visited, a:hover, a:active {
 }
 
 .dark .tema button {
-  color: #FFFFFF;
-  background: #1C1C1C;
+  color: #ffffff;
+  background: #1c1c1c;
   box-sizing: border-box;
   border-radius: 100px;
-  border: 2px solid #F7F7F7;
+  border: 2px solid #f7f7f7;
 }
 
 ::-webkit-scrollbar {
@@ -172,18 +197,18 @@ a, a:visited, a:hover, a:active {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1C1C1C;
-  border: 1.8px solid #1C1C1C;
+  background: #1c1c1c;
+  border: 1.8px solid #1c1c1c;
   border-radius: 100px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #ECF4FF;
+  background: #ecf4ff;
 }
 
 ::-webkit-scrollbar-track {
-  background: #ECF4FF;
+  background: #ecf4ff;
   border-radius: 100px;
-  box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
   margin: 15px 0px;
 }
