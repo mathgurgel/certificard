@@ -104,6 +104,15 @@ body {
   background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
   border-radius: 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+  /* scroll bar styling */
+  scrollbar-color: #1c1c1c #ecf4ff;
+  scrollbar-width: 5px;
+  scrollbar-track-color: #ecf4ff;
+  scrollbar-face-color: #1c1c1c;
+  scrollbar-3dlight-color: #1c1c1c;
+  scrollbar-arrow-color: #1c1c1c;
+  scroll-margin: 15px 0px;
 }
 
 .conquistas {
